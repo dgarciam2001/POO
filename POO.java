@@ -38,5 +38,10 @@ public class Persona {
         this.edad = edad;
     }
     
+    public void crearPersona(String nombre, String fechaNacimiento, int edad){
+        this.nombre=nombre;
+        this.fechaNacimiento = fechaNacimiento;
+        this.edad = edad;
+    }
     
 }
